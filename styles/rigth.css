@@ -1,0 +1,268 @@
+body > .rigth-container{
+    width: 70%;
+    height: auto;
+    background-color: var(--second-color);
+    position: relative;
+    padding: 1rem;
+    left: 30%;
+    margin: 0;
+}
+
+.rigth-container > .main-container {
+    width: 98%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.section-info{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+
+}
+
+.section-info > h2 {
+    font-size: 2rem;
+    border-bottom: solid 3px var(--second-color);
+    padding-bottom: 1rem;
+    background-color: var(--terciary-color);
+}
+
+.section-profile{
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: var(--terciary-color);
+    border-radius: 20px;
+}
+
+.section-profile > p {
+    margin-top: 1rem;
+}
+
+.proyect-info{
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: var(--terciary-color);
+    border-radius: 20px;
+}
+
+.container-cards{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.card-proyects{
+    width: 18rem;
+    height: max-content;
+    border-radius: 10px;
+    background-color: var(--first-color);
+    margin: 2rem;
+    display: flex;
+    padding: 1rem;
+
+}
+
+.card-proyects > .img-container{
+    width:60%;
+    height: 60%;
+    border-radius: 7px 0 0 7px;
+    display: flex;
+    
+
+}
+
+.img-container > img {
+    width: max-content;
+    height:max-content;
+}
+
+
+.card-proyects > .description-continer{
+    width: 50%;
+    height: 50%;
+    border-radius: 0 7px  7px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+.description-continer > h3{
+    text-align: center;
+    font-size: 1rem;
+}
+.description-continer > p{
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+}
+
+
+.section-reference{
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: var(--terciary-color);
+    border-radius: 20px;
+}
+
+.section-reference > .card-contariner-reference{
+    margin-top: 2rem;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.card-contariner-reference > .card-references{
+    width: 16rem;
+    height: 100%;
+    background-color:  var(--first-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.card-references > p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+}
+
+.card-references> p > span{
+    font-size: 0.8rem;
+    text-align: right;
+    font-weight: 600;
+    color: white;
+}
+
+.section-experience{
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: var(--terciary-color);
+    border-radius: 20px;
+}
+
+ .container-experience{
+
+    width: auto;
+    height: max-content;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    margin: 1rem;
+    gap: 1rem;
+    background-color: var(--terciary-color);
+ }
+
+ .container-experience > .cards-experiences {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center; 
+    margin-top: 2rem;
+    text-align: center;
+    gap: 3rem;
+    font-size: 1rem;
+ } 
+
+.img-experience {
+    width: 8rem;
+    height: 8rem;
+}
+
+ .progress-bar {
+    width: 8rem;
+    height: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    overflow: hidden;
+
+ }
+
+ .progress-bar::-webkit-progress-value{
+    background-color: var(--first-color);
+ }
+ .progress-bar::moz-progress-value{
+    background-color: var(--first-color);
+ }
+ .progress-bar::-ms-fill{
+    background-color: var(--first-color);
+ }
+
+ 
+ 
+ @media (max-width: 650px) {
+    .section-info{
+        font-size: 1rem;
+    }
+    .section-info > h2{
+        font-size: 1.5rem;
+    }
+    .section-info > p{
+        font-size: 1rem;
+    }
+    .container-experience > .cards-experiences {
+
+        display: flex;
+        flex-direction: column;
+
+     } 
+     .img-experience {
+        width: 90%;
+        height: 90%;
+    }
+    .progress-bar {
+        width: 4rem;
+        height: 0.5rem;
+        overflow: hidden;
+
+    }
+    
+}
+@media (max-width: 450px) {
+
+    .section-info{
+        font-size: 0.5rem;
+    }
+    .section-info > h2{
+        font-size: 1rem;
+    }
+    .section-info > p{
+        font-size: 1rem;
+    }
+    .img-experience {
+        width: 90%;
+        height: 90%;
+    }
+    .progress-bar {
+        width: 2rem;
+        height: 0.5rem;
+        overflow: hidden;
+     }
+    
+}

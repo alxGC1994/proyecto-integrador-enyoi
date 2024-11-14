@@ -1,0 +1,161 @@
+
+body > .left-container{
+    width: 30%;
+    height: 100%;
+    background-color: var(--first-color);
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    
+}
+
+ .foto{
+    width:90%;
+    height: 90%;
+    border-radius: 50px;
+}
+
+.name-profile {
+    color:white;
+    padding-bottom: 10%;
+    padding-top: 1rem;
+    
+}
+a{
+    color: var(--second-color);
+}
+ ul{
+    list-style-type: none;
+    color: var(--second-color);
+ }
+
+ li{
+    padding-bottom: 10%;
+    
+ }
+
+.navbar-profile{
+    padding-bottom: 10%;
+    font-size: 25px;
+    
+}
+
+footer > .navbar-profile{
+    width: 100%;
+}
+
+ .bx{
+    font-size: 3rem;
+    color:var(--second-color);
+ }
+
+ .navbar-profile > ul >li >a:hover {
+    text-shadow: -3px  -3px 6px  white/* var(--terciary-color) */;
+    border-bottom: solid 2px #ffffff74;
+ }
+ 
+@media (max-width: 650px) {
+
+    .foto{
+        width:60%;
+        height: 60%;
+        border-radius: 50px;
+    }
+    .name-profile {
+        height: auto;
+        color:white;
+        padding-bottom: 10%;
+        padding-top: 0.5rem;
+        padding-left: 0.5rem;
+        font-size: 1.5rem;
+        
+    }
+    .navbar-profile{
+        padding-bottom: 8%;
+        font-size: 1.5rem;
+        
+    }
+    .bx{
+        font-size: 2rem;
+     }
+    
+    
+}
+@media (max-width: 450px) {
+
+    .foto{
+        width:70%;
+        height: 70%;
+        border-radius: 25px;
+        padding: 0.5rem;
+    }
+    .name-profile {
+        color:white;
+        padding-bottom: 5%;
+        padding-top: 0.5rem;
+        font-size: 1.5rem;
+       /*  padding-right: 1.5rem; */
+    }
+    .navbar-profile{
+        padding-bottom: 5%;
+        font-size: 1rem;
+       /*  padding-right: 1.5rem; */
+        
+    }
+    .bx{
+        font-size: 1.5rem;
+        /* padding-right: 1.5rem; */
+     }
+    
+    
+}
+@media (max-height: 700px) {
+    .foto{
+        width:50%;
+        height: 50%;
+        border-radius: 25px;
+        padding: 0.5rem;
+    }
+    .navbar-profile{
+        padding-bottom: 10%;
+        /* font-size: 1rem; */
+       /*  padding-right: 1.5rem; */
+        
+    }
+    .bx{
+        font-size: 2.5rem;
+        color:var(--second-color);
+     }
+    
+  }
+  @media (max-height: 570px) {
+    .foto{
+        width:30%;
+        height: 30%;
+        border-radius: 25px;
+        padding: 0.5rem;
+    }
+    .name-profile {
+        height: auto;
+        color:white;
+        padding-bottom: 10%;
+        padding-top: 0.5rem;
+        padding-left: 0.5rem;
+        font-size: 1.5rem;
+        
+    }
+    .navbar-profile{
+        padding-bottom: 10%;
+        /* font-size: 1rem; */
+       /*  padding-right: 1.5rem; */
+        
+    }
+    .bx{
+        font-size: 1.5rem;
+        color:var(--second-color);
+     }
+    
+  }
